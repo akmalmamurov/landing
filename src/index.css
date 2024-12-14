@@ -8,3 +8,9 @@ body {
 .active {
   color: #6778d6;
 }
+
+@layer components {
+  .Btn{
+    @apply bg-[#111B47] w-[148px] text-sm md:w-[189px] h-[36px] flex justify-center items-center text-white font-medium md:text-base rounded-[2px] border-2 border-transparent hover:bg-white hover:border-[#091133] hover:text-[#091133] duration-300 
+  }
+}
