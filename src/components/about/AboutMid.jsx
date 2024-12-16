@@ -1,11 +1,11 @@
-import { aboutTopLeftImg } from "@/assets";
+import { aboutMidImg } from "@/assets";
 
-const AboutTop = () => {
+const AboutMid = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-[30px] items-center">
       {/* about left */}
       <div>
-        <img src={aboutTopLeftImg} alt="about" />
+        <img src={aboutMidImg} alt="about" />
       </div>
 
       {/* about right */}
@@ -27,4 +27,4 @@ const AboutTop = () => {
   );
 };
 
-export default AboutTop;
+export default AboutMid;

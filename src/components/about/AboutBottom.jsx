@@ -1,11 +1,11 @@
-import { aboutTopLeftImg } from "@/assets";
+import { aboutBottomImg } from "@/assets";
 
-const AboutTop = () => {
+const AboutBottom = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-[30px] items-center">
       {/* about left */}
       <div>
-        <img src={aboutTopLeftImg} alt="about" />
+        <img src={aboutBottomImg} alt="about" />
       </div>
 
       {/* about right */}
@@ -14,17 +14,18 @@ const AboutTop = () => {
           <h2 className="font-medium text-xl lg:text-[36px] lg:leading-[48px] text-infiniteNight mb-4">
             Light, Fast & Powerful
           </h2>
-          <p className="font-normal text-sm text-marvellous lg:text-base">
+          <p className="font-normal text-sm text-marvellous lg:text-base mb-10">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
             commodo ligula eget dolor. Aenean massa. Cum sociis natoque
             penatibus et magnis dis parturient montes, nascetur ridiculus mus.
             Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
             Nulla consequat massa quis enim.
           </p>
+          <button className="Btn">Purchase Now</button>
         </div>
       </div>
     </div>
   );
 };
 
-export default AboutTop;
+export default AboutBottom;
