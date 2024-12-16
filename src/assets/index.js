@@ -1,3 +1,16 @@
 import bgHome from "./bghome.png";
 import homeRightImg from "./homeright.png";
-export { bgHome, homeRightImg };
+import aboutIcon from "./Icon.png";
+import aboutTopImg from "./about1.png";
+import aboutTopLeftImg from "./about2.png";
+import aboutMidImg from "./about3.png";
+import aboutBottomImg from "./about4.png";
+export {
+  bgHome,
+  homeRightImg,
+  aboutIcon,
+  aboutTopImg,
+  aboutTopLeftImg,
+  aboutMidImg,
+  aboutBottomImg,
+};

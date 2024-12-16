@@ -33,7 +33,7 @@ export const Header = () => {
   };
 
   return (
-    <nav className="sticky top-0 z-10 py-2 bg-white/95">
+    <nav className="sticky top-0 z-10 py-3 bg-white/95">
       <Container>
         {/* nav links */}
         <div className="flex items-center justify-between ">
@@ -41,7 +41,7 @@ export const Header = () => {
             {navLinks.map(({ id, title, link }) => (
               <li
                 key={id}
-                className="cursor-pointer text-navColor/80 font-normal text-sm tracking-wide hover:text-navColor/75 hover:-translate-y-1 duration-300"
+                className="cursor-pointer text-navColor/80 font-medium text-sm tracking-wide hover:text-navColor/75 hover:-translate-y-1 duration-300"
               >
                 <Link
                   activeClass="active"

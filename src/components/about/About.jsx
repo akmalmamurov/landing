@@ -1,8 +1,11 @@
+import AboutInfo from "./AboutInfo";
 
 export const About = () => {
   return (
-    <div>About</div>
-  )
-}
+    <section id="about" className="py-[160px]">
+      <AboutInfo />
+    </section>
+  );
+};
 
-export default About
+export default About;

@@ -17,7 +17,9 @@ export default {
         navColor: "#505F98",
         titleColor: "#37447E",
         bgBlue: "#111B47",
-        
+        infiniteNight: "#091133",
+        marvellous: "#6F7CB2",
+        creekFals: "#5D6970",
       },
     },
   },
