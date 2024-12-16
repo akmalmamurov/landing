@@ -41,14 +41,14 @@ export const Header = () => {
             {navLinks.map(({ id, title, link }) => (
               <li
                 key={id}
-                className="cursor-pointer text-navColor/80 font-medium text-sm tracking-wide hover:text-navColor/75 hover:-translate-y-1 duration-300"
+                className="cursor-pointer text-navColor/80 font-medium text-sm tracking-wide hover:text-navColor/75  duration-300"
               >
                 <Link
                   activeClass="active"
                   to={link}
                   spy={true}
                   smooth={true}
-                  offset={-70}
+                  offset={-40}
                   duration={500}
                 >
                   {title}

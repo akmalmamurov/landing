@@ -8,9 +8,18 @@ body {
 .active {
   color: #091133;
 }
+.footerActive {
+  color: #929ecc;
+}
 
 @layer components {
-  .Btn{
-    @apply bg-[#111B47] w-[148px] text-sm md:w-[189px] h-[36px] flex justify-center items-center text-white font-medium md:text-base rounded-[2px] border-2 border-transparent hover:bg-white hover:border-[#091133] hover:text-[#091133] duration-300 
+  .Btn {
+    @apply bg-[#111B47] w-[138px] text-sm md:w-[189px] h-[36px] flex justify-center items-center text-white font-medium md:text-base rounded-[2px] border-2 border-transparent hover:bg-white hover:border-[#091133] hover:text-[#091133] duration-300;
+  }
+  .iconBox{
+    @apply w-10 h-10 flex items-center justify-center bg-transparent rounded-md  cursor-pointer hover:-translate-y-1 duration-300 hover:bg-black
+  }
+  .icon{
+   @apply text-iconColor cursor-pointer text-base group-hover:text-white duration-300 
   }
 }

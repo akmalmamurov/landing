@@ -20,6 +20,12 @@ export default {
         infiniteNight: "#091133",
         marvellous: "#6F7CB2",
         creekFals: "#5D6970",
+        footerBg: "#E7ECFF",
+        velvetRobe: "#929ECC",
+        iconColor: "#B0B8BC",
+      },
+      backgroundImage: {
+        "contact-bg": "url('assets/Rectangle.png')",
       },
     },
   },

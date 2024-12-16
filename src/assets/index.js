@@ -5,6 +5,7 @@ import aboutTopImg from "./about1.png";
 import aboutTopLeftImg from "./about2.png";
 import aboutMidImg from "./about3.png";
 import aboutBottomImg from "./about4.png";
+import bgRectangle from "./Rectangle.png";
 export {
   bgHome,
   homeRightImg,
@@ -13,4 +14,5 @@ export {
   aboutTopLeftImg,
   aboutMidImg,
   aboutBottomImg,
+  bgRectangle,
 };
